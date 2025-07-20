@@ -16,11 +16,12 @@
 
 ### 0. 创建虚拟环境
 ```bash
-conda create -n youtube2audio python=3.12
+conda create -n youtube_saver python=3.12
 ```
 ### 1. 安装依赖
 
 ```bash
+conda activate youtube_saver
 pip install yt-dlp
 ```
 
